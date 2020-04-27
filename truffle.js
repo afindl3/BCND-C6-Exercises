@@ -1,7 +1,8 @@
 var HDWalletProvider = require("truffle-hdwallet-provider");
 
 // Be sure to match this mnemonic with that in Ganache!
-var mnemonic = "candy maple cake sugar pudding cream honey rich smooth crumble sweet treat";
+// var mnemonic = "candy maple cake sugar pudding cream honey rich smooth crumble sweet treat";
+var mnemonic = "switch bronze window fantasy reflect feel slot menu room stove naive list";
 
 module.exports = {
   networks: {
