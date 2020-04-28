@@ -20,7 +20,8 @@ contract('ExerciseC6C', async (accounts) => {
 
     // ACT
     await config.exerciseC6C.registerEmployee(employee.id, employee.isAdmin, employee.address);
-    await config.exerciseC6C.addSale(employee.id, 400);
+    // Lesson 4.5 - Update Test Code
+    await config.exerciseC6CApp.addSale(employee.id, 400);
     let bonus = await config.exerciseC6C.getEmployeeBonus.call(employee.id);
 
     // ASSERT
